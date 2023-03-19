@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>FLIPIX</title>
+</head>
+
+<body>
+    <div class="container"><!--THATS WHERE ALL THE CONTENT IS-->
+        <div class="heading"><!--LOGO & NAV-BAR-->
+            <h2 id="logo">
+                FLI<span>PIX</span>
+            </h2>
+            <ul>
+                <li><a href="#about-info">About</a></li>
+                <li><a href="#">Youtube</a></li>
+            </ul>
+            <button id="request" onclick="request()">I Request</button>
+        </div><!--END OF LOGO-->
+
+        <!--MAIN INTRO-->
+        <div class="main">
+            <div class="background">
+                <img src="./IMG/back.jpg" alt="">
+            </div>
+           
+            <div class="txt-info">
+                <h2 id="stream">
+                    STREAM  <span>SERIES</span>
+                </h2>
+                
+               <div class="btns">
+                <a href="#latest">
+                    <button id="watch"> Watch More.. </button>
+                </a>
+
+                <a href="#">
+                    <button id="youtube"> Reviews </button>
+                </a>
+               </div>
+            </div>
+            
+        </div>
+
+        <!--Movie listing-->
+        <h4 id="fea"> FEATURED SERIES </h4>
+        <div class="listing"><!--START OF FEATURE SERIES-->
+            
+          <div class="parallel">
+                <a href="treason.html"><!--link for movie-->
+                    <img src="./IMG/treason.jpg" alt="" title="CLICK TO PLAY" onclick="treason()" id="thumbnail">
+                </a>
+          </div>
+
+
+          <div class="middle">
+            <a href="all-of-us-are-dead.html"><!--link for movie-->
+                <video src="./trailer/All_of_Us_Are_Dead_Trailer_Resmi_Netflix_xVN-y9OaSag_135.mp4" muted width="100%" height="340px" autoplay loop></video>
+            </a>
+          </div>
+
+          <div class="parallel">
+            <a href="hanna.html"><!--link for movie-->
+                <img src="./IMG/hanna.jpg" alt="" title="CLICK TO PLAY">
+            </a>
+          </div><!--END OF FEATURE SERIES-->
+        </div>
+
+        <!--START OF REQUESTED SERIES-->
+        <h4 id="req"> REQUESTED SERIES </h4>
+        <div class="requested-series">
+
+            <div class="list-all"><!--no.1-->
+                <a href="the-english.html"><!--link-->
+                    <img src="./IMG/english.jpg" alt="" title="CLICK TO PLAY">
+                    <h3 class="name"> THE ENGLISH </h3>
+                </a>
+            </div>
+
+            <div class="list-all"><!--no.2-->
+                <a href="./1899.html"><!--link-->
+                    <img src="./IMG/1899.jpg" alt="" title="CLICK TO PLAY">
+                    <h3 class="name"> 1899 </h3>
+                </a>
+            </div>
+
+            <div class="list-all"><!--no.3-->
+                <a href="sas.html"><!--link-->
+                    <img src="./IMG/ROUGUE HEROES.jpg" alt="" title="CLICK TO PLAY">
+                    <h3 class="name"> ROUGUE HEROES </h3>
+                </a>
+            </div>
+
+            <div class="list-all"><!--no.4-->
+                <a href="leopard-skin.html"><!--link-->
+                    <img src="./IMG/leopard skin.jpg" alt="" title="CLICK TO PLAY">
+                    <h3 class="name"> LEOPARD SKIN </h3>
+                </a>
+            </div>
+        </div>
+        <!--END OF REQUESTED SERIES-->
+
+
+        <!--START OF LATEST SERIES-->
+        <h4 id="lat">LATEST SERIES</h4>
+        <div class="latest-series" id="latest">
+            <div class="first-row"><!--FIRST ROW-->
+
+                <div class="list-all"><!--no.1-->
+                    <a href="ottoman.html"><!--link-->
+                        <img src="./IMG/ottoman s1.jpg" alt="" title="CLICK TO PLAY">
+                        <h3 class="name"> OTTOMAN </h3>
+                    </a>
+                </div>
+
+                <div class="list-all"><!--no.2-->
+                    <a href="wednesday.html"><!--link-->
+                        <img src="./IMG/WEDNESDAY.jpg" alt="" title="CLICK TO PLAY">
+                        <h3 class="name"> WEDNESDAY </h3>
+                    </a>
+                </div>
+
+                <div class="list-all"><!--no.3-->
+                    <a href="all-of-us-are-dead.html"><!--link-->
+                        <img src="./IMG/all of us are dead.jpg" alt="" title="CLICK TO PLAY">
+                        <h3 class="name"> A-O-U-A-DEAD </h3>
+                    </a>
+                </div>
+
+                <div class="list-all"><!--no.4-->
+                    <a href="night-of.html"><!--link-->
+                        <img src="./IMG/THE NIGHT OF.jpg" alt="" title="CLICK TO PLAY">
+                        <h3 class="name"> THE NIGHT OF </h3>
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div class="second-row"><!--SECOND ROW-->
+
+                <div class="list-all"><!--no.1-->
+                    <a href="chucky.html"><!--link-->
+                        <img src="./IMG/CHUCKY.jpg" alt="" title="CLICK TO PLAY">
+                        <h3 class="name"> CHUCKY </h3>
+                    </a>
+                </div>
+
+                <div class="list-all"><!--no.2-->
+                    <a href="the-endgame.html"><!--link-->
+                        <img src="./IMG/endgame.jpg" alt="" title="CLICK TO PLAY">
+                        <h3 class="name"> THE ENDGAME </h3>
+                    </a>
+                </div>
+
+                <div class="list-all"><!--no.3-->
+                    <a href="krypton.html"><!--link-->
+                        <img src="./IMG/KRYPTON.jpg" alt="" title="CLICK TO PLAY">
+                        <h3 class="name"> KRYPTON </h3>
+                    </a>
+                </div>
+
+                <div class="list-all"><!--no.4-->
+                    <a href="man-vs-bee.html"><!--link-->
+                        <img src="./IMG/man vs bee 2.jpg" alt="" title="CLICK TO PLAY">
+                        <h3 class="name"> MAN VS BEE </h3>
+                    </a>
+                </div>
+            </div>
+
+            <!--THIRD ROW-->
+            <div class="third-row">
+                <div class="list-all"><!--no.1-->
+                    <a href="bodyguard.html"><!--link-->
+                        <img src="./IMG/bodygaurd.jpg" alt="" title="CLICK TO PLAY">
+                        <h3 class="name"> BODYGUARD </h3>
+                    </a>
+                </div>
+
+                <div class="list-all"><!--no.2-->
+                    <a href="tyrant.html"!--link-->
+                        <img src="./IMG/TYRANT.jpg" alt="" title="CLICK TO PLAY">
+                        <h3 class="name"> TYRANT </h3>
+                    </a>
+                </div>
+
+                <div class="list-all"><!--no.3-->
+                    <a href="american-golilo.html"><!--link-->
+                        <img src="./IMG/american.jpg" alt="" title="CLICK TO PLAY">
+                        <h3 class="name"> AMERICAN GIGOLO </h3>
+                    </a>
+                </div>
+
+                <div class="list-all"><!--no.4-->
+                    <a href="inside-man.html"><!--link-->
+                        <img src="./IMG/inside man.jpg" alt="" title="CLICK TO PLAY">
+                        <h3 class="name"> INSIDE MAN </h3>
+                    </a>
+                </div>
+            </div>
+            <!--END IF THIRD ROW-->
+
+            <!--FORTH ROW-->
+            <div class="third-row">
+                <div class="list-all"><!--no.1-->
+                    <a href="the-cabinet.html"><!--link-->
+                        <img src="./IMG/cabinet.jpg" alt="" title="CLICK TO PLAY">
+                        <h3 class="name"> CABINET OF CURIOSITIES </h3>
+                    </a>
+                </div>
+
+                <div class="list-all"><!--no.2-->
+                    <a href="reasonable-doubt.html"><!--link-->
+                        <img src="./IMG/reasonable.jpg" alt="" title="CLICK TO PLAY">
+                        <h3 class="name"> REASONABLE DOUBT </h3>
+                    </a>
+                </div>
+
+                <div class="list-all"><!--no.3-->
+                    <a href="squid-game.html"><!--link-->
+                        <img src="./IMG/trailer.jpg" alt="" title="CLICK TO PLAY">
+                        <h3 class="name"> SQUID GAME </h3>
+                    </a>
+                </div>
+
+                <div class="list-all"><!--no.4-->
+                    <a href="the-pickett.html"><!--link-->
+                        <img src="./IMG/the picket.jpg" alt="" title="CLICK TO PLAY">
+                        <h3 class="name"> THE PICKETT </h3>
+                    </a>
+                </div>
+            </div>
+            <!--END IF FORTH ROW-->
+
+            <!--MOVIE BONUS-->
+            <h4 title="FREE BONUS PER WEEK">MOVIE EXTRAS</h4>
+            <div class="movie-bonus">
+                <div class="two-containers"><!--CONTAINER NO.1-->
+                    <a href="#"><!--link of the movie-->
+                        <img src="./IMG/moon knight.jpg" alt="" title="CLICK TO PLAY">
+                        <h3 class="name" id="ext"> MOON KNIGHT </h3>
+                    </a>
+                </div>
+
+                <div class="two-containers"><!--CONTAINER NO.2-->
+                    <a href="#"><!--link of the movie-->
+                        <img src="./IMG/wakanda.jpg" alt="" title="CLICK TO PLAY">
+                        <h3 class="name" id="ext"> WAKAND FOREVER </h3>
+                    </a>
+                </div>
+            </div>
+            <!--END OF MOVIE BONUS-->
+
+             <!--MOVIE BONUS-->
+             
+             <div class="movie-bonus">
+                 <div class="two-containers"><!--CONTAINER NO.1-->
+                     <a href="#"><!--link of the movie-->
+                         <img src="./IMG/transfusion.jpg" alt="" title="CLICK TO PLAY">
+                         <h3 class="name" id="ext"> TRANSFUSION </h3>
+                     </a>
+                 </div>
+ 
+                 <div class="two-containers"><!--CONTAINER NO.2-->
+                     <a href="#"><!--link of the movie-->
+                         <img src="./IMG/shanty town.jpg" alt="" title="CLICK TO PLAY">
+                         <h3 class="name" id="ext"> SHANTY TOWN </h3>
+                     </a>
+                 </div>
+             </div>
+             <!--END OF MOVIE BONUS-->
+        </div>
+
+        <div class="more-extras">
+            <h4> FOLLOW US  </h4>
+            <div class="socials">
+                <a href="#"><!--FACEBOOK PAGE LINK-->
+                    <img src="./IMG/social/facebook.jpg" alt="">
+                </a>
+
+                <a href="#"><!--INSTAGRAM PAGE LINK-->
+                    <img src="./IMG/social/instagram.png" alt="">
+                </a>
+
+                <a href="#"><!--TWITTER PAGE LINK-->
+                    <img src="./IMG/social/twitter.jpg" alt="">
+                </a>
+
+                <a href="#"><!--TELEGRA PAGE LINK-->
+                    <img src="./IMG/social/telegram.jpg" alt="">
+                </a>
+
+                <a href="#"><!--YOUTUBE CHANNEL LINK-->
+                    <img src="./IMG/social/youtube.jpg" alt="">
+                </a>
+
+                <a href="#"><!--LINKEDIN PAGE LIKN-->
+                    <img src="./IMG/social/linkedin.jpg" alt="">
+                </a>
+            </div>
+        </div>
+
+        <div class="top-button">
+            <a href="#">
+                <button  id="top-button">
+                    SCROLL BACK TOP
+                </button>
+            </a>
+        </div>
+
+        <!--ABOUT US-->
+        <h4 id="about-info"> ABOUT US </h4>
+        <div class="about-us">
+            <div class="side-image">
+            
+            </div>
+
+            <div class="info-about">
+                <h3 id="about">  STREAM AND DOWNLOD TV SERIES  </h3>
+                <p id="txt-in">
+                    We are web developers trying to bring free content to the world,
+                    we generate revence by placing ads at the start and end point of
+                    the movies. Please consider subscribing to our youtube channel to
+                    help us generate revence, so we can bring more free content.
+                </p>
+
+                <p id="txt-in">
+                    <li id="inn"> Requesting a tv-series. </li>
+                    <li id="list-style"> Click on the 'I Request' Button. </li>
+                    <li id="list-style"> Fill in the questions. </li>
+                    <li id="list-style"> Submit when done. </li>
+                </p>
+
+                <div class="sub">
+                    <form action="mailto:flipix@gmail.com" method="post">
+                        <input type="text" placeholder="Newsletter">
+                        <button type="submit"> Submit </button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+        <!--END OF LATEST SERIES-->
+
+        <footer>
+            &copy;Copyright 2022 <br>
+            developed by <a href="mailto:christianblvkk@gmail.com"> Christian Black </a>
+        </footer>
+
+    </div><!--END OF ALL THE CONTENT-->
+
+
+    <script src="./JS/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+html, body{
+    background-color: #ffff;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.page_404{
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 10%;
+    width: 40%;
+    height: auto;
+    margin: "";
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+}
+
+h2{ 
+    font-size: 420%;
+    letter-spacing: 2px;
+    color:  rgb(23, 189, 255);
+}
+
+span{
+    color: rgb(23, 189, 255);
+}
+
+
+h4{
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+}
+
+
+button{
+    margin-bottom: 20%;
+    color: #ffff;
+    background-color: rgb(23, 189, 255);
+    font-weight: 500;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+}
+
+
+button:hover{
+    background-color: #ffff;
+    color: rgb(23, 189, 255);
+    padding: 11px 43px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+}

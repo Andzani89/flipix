@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/request.css">
+    <title>FLIPIX/Irequest</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="heading"><!--LOGO & NAV-BAR-->
+            <h2 id="logo">
+                FLI<span>PIX</span>
+            </h2>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">Youtube</a></li>
+            </ul>
+            <button id="request" onclick="request()">I Request</button>
+        </div><!--END OF LOGO-->
+
+        <div class="flex-row">
+            <div class="request">
+                <form action="#" method="post">
+                    <!--USERNAME--> <br>
+                    <input type="text" placeholder="Username"> <br>
+
+                    <!--USE email--> <br>
+                    <input type="text" placeholder="User Email"> <br>
+
+                    <!--NAME OF THE MOVIE--> <br>
+                    <input type="text" placeholder="Name Of The Movie"> <br>
+
+                    <!--Question--> <br>
+                    <input type="text" placeholder="Did you subscribe to our channel? [YES] Or [NO]" > <br>
+                    <button type="submit" id="done" onclick="submited()"> Submit </button>
+                </form>
+            </div>
+
+            <div class="reco">
+                <div class="list-all"><!--no.1-->
+                    <a href="#"><!--link-->
+                        <img src="./IMG/12 monkeys.jpg" alt="" title="CLICK TO PLAY">
+                        <h3 class="name"> 12 MONKEYS </h3>
+                    </a>
+                </div>
+    
+                <div class="list-all"><!--no.2-->
+                    <a href="#"><!--link-->
+                        <img src="./IMG/1899.jpg" alt="" title="CLICK TO PLAY">
+                        <h3 class="name"> 1899 </h3>
+                    </a>
+                </div>
+
+                <div class="list-all"><!--no.1-->
+                    <a href="#"><!--link-->
+                        <img src="./IMG/ottoman s1.jpg" alt="" title="CLICK TO PLAY">
+                        <h3 class="name"> OTTOMAN </h3>
+                    </a>
+                </div>
+
+                <div class="list-all"><!--no.2-->
+                    <a href="#"><!--link-->
+                        <img src="./IMG/endgame.jpg" alt="" title="CLICK TO PLAY">
+                        <h3 class="name"> THE ENDGAME </h3>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <footer>
+            &copy;Copyright 2022 <br>
+            developed by <a href="mailto:christianblvkk@gmail.com"> Christian Black </a>
+        </footer>
+
+    </div>
+</body>
+</html>

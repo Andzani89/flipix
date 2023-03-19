@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/stream.css">
+    <title>FLIPIX/HANNA</title>
+</head>
+
+<body>
+
+    <div class="container"><!--THATS WHERE ALL THE CONTENT IS-->
+        <div class="heading"><!--LOGO & NAV-BAR-->
+            <h2 id="logo">
+                FLI<span>PIX</span>
+            </h2>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">Youtube</a></li>
+            </ul>
+            <button id="request" onclick="request()">I Request</button>
+        </div><!--END OF LOGO-->
+
+        <div class="name-of-series">
+            <h1 id="name"> HANNA SEASON 1 </h1>
+        </div>
+
+        <!--VIDEO PLATE-->
+        <div class="movie-info">
+            <div class="movie-plate" id="play">
+                <video src="#" id="change" autoplay controls></video><!--TRAILER OF SERIES-->
+            </div>
+
+            <div class="episodes">
+                <!--EPISODE CONTAINER-->
+                <div class="episode-1">
+                    <h3 id="ep-1"> Episode No. 1 </h3>
+                    <!--download button-->
+                    <img src="./IMG/controls/dwonload.png" alt="download-button" title="CLICK TO DOWNLOAD">
+                    <!--PLAY BUTTON-->
+                    <img src="./IMG/controls/play.png" alt="play-btn" title="CLICK TO PLAY" onclick="epi1()" id="ep1">
+                </div>
+                <!--END OF CONTAINER-->
+
+                <!--EPISODE CONTAINER-->
+                <div class="all-episodes">
+                    <h3 id="ep-1"> Episode No. <span>2</span> </h3>
+
+                    <!--download button-->
+                    <img src="./IMG/controls/dwonload.png" alt="download-button" title="CLICK TO DOWNLOAD">
+                    <!--PLAY BUTTON-->
+                    <img src="./IMG/controls/play.png" alt="play-btn" title="CLICK TO PLAY" onclick="ep2()">
+                </div>
+                <!--END OF CONTAINER-->
+
+                <!--EPISODE CONTAINER-->
+                <div class="all-episodes">
+                    <h3 id="ep-1"> Episode No. <span>3</span> </h3>
+
+                    <!--download button-->
+                    <img src="./IMG/controls/dwonload.png" alt="download-button" title="CLICK TO DOWNLOAD">
+                    <!--PLAY BUTTON-->
+                    <img src="./IMG/controls/play.png" alt="play-btn" title="CLICK TO PLAY" onclick="ep3()">
+                </div>
+                <!--END OF CONTAINER-->
+
+
+                <!--EPISODE CONTAINER-->
+                <div class="all-episodes">
+                    <h3 id="ep-1"> Episode No. <span>4</span> </h3>
+
+                    <!--download button-->
+                    <img src="./IMG/controls/dwonload.png" alt="download-button" title="CLICK TO DOWNLOAD">
+                    <!--PLAY BUTTON-->
+                    <img src="./IMG/controls/play.png" alt="play-btn" title="CLICK TO PLAY" onclick="ep4()">
+                </div>
+                <!--END OF CONTAINER-->
+
+
+                <!--EPISODE CONTAINER-->
+                <div class="all-episodes">
+                    <h3 id="ep-1"> Episode No. <span>5</span> </h3>
+
+                    <!--download button-->
+                    <img src="./IMG/controls/dwonload.png" alt="download-button" title="CLICK TO DOWNLOAD">
+                    <!--PLAY BUTTON-->
+                    <img src="./IMG/controls/play.png" alt="play-btn" title="CLICK TO PLAY" onclick="ep5()">
+                </div>
+                <!--END OF CONTAINER-->
+
+                <!--EPISODE CONTAINER-->
+                <div class="all-episodes">
+                    <h3 id="ep-1"> Episode No. <span>6</span> </h3>
+
+                    <!--download button-->
+                    <img src="./IMG/controls/dwonload.png" alt="download-button" title="CLICK TO DOWNLOAD">
+                    <!--PLAY BUTTON-->
+                    <img src="./IMG/controls/play.png" alt="play-btn" title="CLICK TO PLAY" onclick="ep6()">
+                </div>
+                <!--END OF CONTAINER-->
+
+                <!--EPISODE CONTAINER-->
+                <div class="all-episodes">
+                    <h3 id="ep-1"> Episode No. <span>7</span> </h3>
+
+                    <!--download button-->
+                    <img src="./IMG/controls/dwonload.png" alt="download-button" title="CLICK TO DOWNLOAD">
+                    <!--PLAY BUTTON-->
+                    <img src="./IMG/controls/play.png" alt="play-btn" title="CLICK TO PLAY" onclick="ep7()">
+                </div>
+                <!--END OF CONTAINER-->
+
+                <!--EPISODE CONTAINER-->
+                <div class="all-episodes">
+                    <h3 id="ep-1"> Episode No. <span>8</span> </h3>
+
+                    <!--download button-->
+                    <img src="./IMG/controls/dwonload.png" alt="download-button" title="CLICK TO DOWNLOAD">
+                    <!--PLAY BUTTON-->
+                    <img src="./IMG/controls/play.png" alt="play-btn" title="CLICK TO PLAY" onclick="ep8()">
+                </div>
+                <!--END OF CONTAINER-->
+
+                <!--EPISODE CONTAINER-->
+                <div class="all-episodes">
+                    <h3 id="ep-1"> Episode No. <span>9</span> </h3>
+
+                    <!--download button-->
+                    <img src="./IMG/controls/dwonload.png" alt="download-button" title="CLICK TO DOWNLOAD">
+                    <!--PLAY BUTTON-->
+                    <img src="./IMG/controls/play.png" alt="play-btn" title="CLICK TO PLAY" onclick="ep9()">
+                </div>
+                <!--END OF CONTAINER-->
+
+                <!--EPISODE CONTAINER-->
+                <div class="all-episodes">
+                    <h3 id="ep-1"> Episode No. <span>10</span> </h3>
+
+                    <!--download button-->
+                    <img src="./IMG/controls/dwonload.png" alt="download-button" title="CLICK TO DOWNLOAD">
+                    <!--PLAY BUTTON-->
+                    <img src="./IMG/controls/play.png" alt="play-btn" title="CLICK TO PLAY" onclick="ep10()">
+                </div>
+                <!--END OF CONTAINER-->
+                <div class="next-seasons">
+                    <button onclick="next_season2()">
+                        Season 2
+                    </button>
+
+                    <button onclick="next_season3()">
+                        Season 3
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="other-series">
+            <div class="requested-series">
+
+                <div class="list-all"><!--no.1-->
+                    <a href="boo-bitch.html"><!--link-->
+                        <img src="./IMG/boo bitch.jpg" alt="" title="CLICK TO PLAY">
+                        <h3 class="name"> BOO BITCH </h3>
+                    </a>
+                </div>
+
+                <div class="list-all"><!--no.2-->
+                    <a href="the-endgame.html"><!--link-->
+                        <img src="./IMG/endgame.jpg" alt="" title="CLICK TO PLAY">
+                        <h3 class="name"> THE ENDGAME </h3>
+                    </a>
+                </div>
+
+                <div class="list-all"><!--no.3-->
+                    <a href="sas.html"><!--link-->
+                        <img src="./IMG/ROUGUE HEROES.jpg" alt="" title="CLICK TO PLAY">
+                        <h3 class="name"> ROUGUE HEROES </h3>
+                    </a>
+                </div>
+
+                <div class="list-all"><!--no.4-->
+                    <a href="the-cabinet.html"><!--link-->
+                        <img src="./IMG/cabinet.jpg" alt="" title="CLICK TO PLAY">
+                        <h3 class="name"> THE CABINET </h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        &copy;Copyright 2022 <br>
+        developed by <a href="mailto:christianblvkk@gmail.com"> Christian Black </a>
+    </footer>
+    </div>
+
+    <script>
+
+        console.log("STREAMING HANNA S1")
+
+        var video = document.getElementById('change');
+        function epi1() {  //EPISODE NO.1
+            video.setAttribute('src', '#');//LINK FOR EPISODE 1
+            console.log('STREAMING Episode NO.1')
+        }
+
+
+        function ep2() {  //EPISODE NO.2
+            video.setAttribute('src', '#');//LINK FOR EPISODE 2
+            console.log('STREAMING Episode NO.2')
+        }
+
+        function ep3() {  //EPISODE NO.3
+            video.setAttribute('src', '#');//LINK FOR EPISODE 3
+            console.log('STREAMING Episode NO.3')
+        }
+
+
+        function ep4() {  //EPISODE NO.4
+            video.setAttribute('src', '#');//LINK FOR EPISODE 4
+            console.log('STREAMING Episode NO.4')
+        }
+
+
+        function ep5() {  //EPISODE NO.5
+            video.setAttribute('src', '#');//LINK FOR EPISODE 5
+            console.log('STREAMING Episode NO.5')
+        }
+
+        function ep6() {  //EPISODE NO.6
+            video.setAttribute('src', '#');//LINK FOR EPISODE 6
+            console.log('STREAMING Episode NO.6')
+        }
+
+        function ep7() {  //EPISODE NO.7
+            video.setAttribute('src', '#');//LINK FOR EPISODE 7
+            console.log('STREAMING Episode NO.7')
+        }
+
+        function ep8() {  //EPISODE NO.8
+            video.setAttribute('src', '#');//LINK FOR EPISODE 8
+            console.log('STREAMING Episode NO.8')
+        }
+
+        function ep9() {  //EPISODE NO.9
+            video.setAttribute('src', '#');//LINK FOR EPISODE 9
+            console.log('STREAMING Episode NO.9')
+        }
+
+        function ep10() {  //EPISODE NO.10
+            video.setAttribute('src', '#');//LINK FOR EPISODE 10
+            console.log('STREAMING Episode NO.10')
+        }
+
+
+        //NEXT SEASON LINK
+        function next_season2() {
+            window.location.href = "hannaS2.html"; //this is the link
+        }
+
+        function next_season3() {
+            window.location.href = "hannaS3.html"; //this is the link
+        }
+
+    </script>
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
